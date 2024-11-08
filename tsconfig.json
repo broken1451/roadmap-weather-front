@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@services/*": ["./src/app/services/*"],
+      "@interfaces/*": ["./src/app/weather/interfaces/*"],
+      "@enviroments/*": ["./src/environments/*"],
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
